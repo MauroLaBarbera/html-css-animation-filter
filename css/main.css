@@ -55,3 +55,47 @@
 .ex-6-img:hover {
     filter: grayscale(1);
 }
+
+/* EX7 */
+.ex-7-img {
+    transition: 3s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(1) sepia(.5);
+}
+
+/* EX8 */
+.ex-8-img {
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(1) sepia(.5);
+    border-radius: 20px;
+}
+
+/* EX9 */
+.ex-9-img {
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    filter: grayscale(1) sepia(.5);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
+
+/* EX10 */
+.ex-10-icon {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
